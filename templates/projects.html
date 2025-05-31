@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="projects">
+    <h2>🧩 Projects</h2>
+    <p>Here are some of the key DevOps projects I've worked on or contributed to.</p>
+
+    <div class="project-grid">
+        <div class="project-card">
+            <h3>⚙️ CI/CD Pipeline Automation</h3>
+            <p>Automated build and deployment pipelines using Jenkins, GitHub Actions, and Argo CD for microservices on Kubernetes.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>☁️ AWS Infrastructure Setup</h3>
+            <p>Built scalable AWS infrastructure using Terraform and CloudFormation, including EC2, RDS, VPC, and S3.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>🔍 Observability Platform</h3>
+            <p>Implemented Prometheus, Grafana, and Loki for system monitoring, alerting, and centralized logging.</p>
+        </div>
+    </div>
+</section>
+{% endblock %}

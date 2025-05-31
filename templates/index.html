@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="home">
+    <div style="text-align:center">
+        <img src="{{ url_for('static', filename='profile.jpg') }}" alt="Shubham Tayde" class="profile-pic">
+        <h2>Shubham Tayde</h2>
+        <h4>DevOps Engineer | India</h4>
+        <p>Hello 👋 I'm a DevOps engineer from Nagpur, India.<br>
+           Passionate about building efficient, cutting-edge DevOps solutions that drive collaboration, speed, and reliability across the software lifecycle.</p>
+    </div>
+
+    <hr style="margin: 2rem 0; border: 1px solid var(--accent);">
+
+    <div>
+        <h3>🔧 Skills & Services</h3>
+        <ul>
+            <li>⚙️ Container orchestration with Docker and Kubernetes</li>
+            <li>📦 Infrastructure as Code (IaC) using Terraform and CloudFormation</li>
+            <li>🔄 CI/CD pipeline automation</li>
+            <li>☁️ Cloud platforms (AWS, GCP, Azure)</li>
+            <li>📊 System monitoring and observability</li>
+            <li>💻 Automation and scripting</li>
+        </ul>
+    </div>
+</section>
+{% endblock %}

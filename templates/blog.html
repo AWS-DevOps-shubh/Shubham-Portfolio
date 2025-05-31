@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="blog">
+    <h2>📝 Blog</h2>
+    <p>I enjoy writing about DevOps, cloud infrastructure, and engineering productivity. Check out some of my recent thoughts and tutorials:</p>
+
+    <div class="blog-list">
+        <div class="blog-post">
+            <h3><a href="https://medium.com/@yourprofile/devops-pipeline-best-practices" target="_blank">DevOps Pipeline Best Practices</a></h3>
+            <p>A practical guide to building scalable, secure CI/CD pipelines using Jenkins, GitHub Actions, and Argo CD.</p>
+        </div>
+
+        <div class="blog-post">
+            <h3><a href="https://hashnode.com/@yourprofile/infrastructure-as-code-with-terraform" target="_blank">Infrastructure as Code with Terraform</a></h3>
+            <p>Step-by-step guide for defining reusable, modular infrastructure on AWS using Terraform and CloudFormation.</p>
+        </div>
+
+        <div class="blog-post">
+            <h3><a href="#" target="_blank">Kubernetes Monitoring with Prometheus and Grafana</a></h3>
+            <p>Learn how to set up a full observability stack for your Kubernetes cluster with open-source tools.</p>
+        </div>
+    </div>
+</section>
+{% endblock %}
